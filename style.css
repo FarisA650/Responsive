@@ -1,0 +1,119 @@
+body{
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+
+.img1{
+    width: 100px;
+    padding: 10px;
+}
+
+.container1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100vh;
+    width: 100%;
+    max-width: 1320px;
+    background-image: url('jeephome.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn1{
+    background-color: #ffba00;
+    color: black;
+    font-family: "Heebo","Roboto",sans-serif;
+    letter-spacing: .05rem;
+    font-size: 1rem;
+    padding: 1rem 3rem 0.85714rem 1.78571rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-right: 150px;
+}
+
+.box2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box2 img{
+    margin-top: 30px;
+    width: 300px;
+}
+
+.box_2 p{
+    color: black;
+    font-family: "Heebo","Roboto",sans-serif;
+    letter-spacing: .05rem;
+    font-size: 1rem;
+    padding: 1rem 3rem 0.85714rem 1.78571rem;
+    font-weight: 700;
+}
+
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 img{
+    width: 420px;
+    padding: 10px;
+}
+
+.box5{
+    width: 100%;
+    height: 100px;
+    background: black;
+}
+
+.box5 img{
+    width: 1345px;
+}
+
+.card_img_top{
+    width: auto;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-section {
+    margin: 10px;
+    flex: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin: 10px 0;
+        text-align: center;
+    }
+}

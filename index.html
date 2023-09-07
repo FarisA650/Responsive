@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jeep</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img class = "img1" src = "jeeplogo.png" alt = "logo"/></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">VEHICLES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">OFFERS</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      SHOPPING TOOLS
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <div class = "container1 container-fluid">
+            <input class = "btn1" id = "button1" type = "button" Value = "KNOW MORE >"/>
+        </div>
+        <div class = "box2 row">
+            <div class = "box_2 col">
+                <img src = "compass.jpg" alt = "compass"/>
+                <p>JEEP COMPASS</p>
+            </div>
+            <div class = "box_2 col">
+                <img src = "meridian.jpg" alt = "meridian"/>
+                <p>JEEP MERIDIAN</p>
+            </div>
+            <div class = "box_2 col">
+                <img src = "wrangler.jpg" alt = "wrangler"/>
+                <p>JEEP WRANGLER</p>
+            </div>
+            <div class = "box_2 col">
+                <img src = "cherokee.jpg" alt = "cherokee"/>
+                <p>JEEP GRAND CHEROKEE</p>
+            </div>
+        </div>
+        <div class = "box5 container-fluid">
+            <img class = "img-fluid" src = "grill.jpg"/>
+        </div>
+        <div class = "row mt-5">
+            <div class = "col">
+                <div class = "card">
+                    <img src = "learnmore1.png" class = "card-img-top" alt = "car image"/>
+                    <div class = "card-footer">
+                        Know More
+                    </div>
+                </div>
+            </div>
+            <div class = "col">
+                <div class = "card">
+                    <img src = "learnmore2.png" class = "card-img-top" alt = "car image"/>
+                    <div class = "card-footer">
+                        Know More
+                    </div>
+                </div>
+            </div>
+            <div class = "col">
+                <div class = "card">
+                    <img src = "learnmore3.jpg" class = "card-img-top" alt = "car image"/>
+                    <div class = "card-footer">
+                        Know More
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+          <div class="footer-content">
+              <div class="footer-section">
+                  <h4>VEHICLES</h4>
+                  <li>Wrangler</li>
+                  <li>Meridian</li>
+                  <li>Compass</li>
+                  <li>Cherokee</li>
+              </div>
+              <div class="footer-section">
+                  <h2>Contact</h2>
+                  <p>Email: jeepglobal@gmail.com</p>
+                  <p>Phone: +1 (123) 456-7890</p>
+              </div>
+              <div class="footer-section">
+                  <h2>Follow Us</h2>
+                  <a href="#"><i class = "fa fa-fw fa-instagram"></i></a>
+                  <a href="#"><i class = "fa fa-fw fa-twitter"></i></a>
+                  <a href="#"><i class = "fa fa-fw fa-facebook"></i></a>
+                  <a href="#"><i class = "fa fa-fw fa-youtube"></i></a>
+              </div>
+          </div>
+      </footer>
+    </body>
+</html>
+
+<script>
+  const button = document.getElementById("button1");
+  button.addEventListener("click", function () {
+    button.value = "Go Back";
+  });
+</script>
